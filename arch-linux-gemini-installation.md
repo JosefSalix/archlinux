@@ -152,8 +152,8 @@ vim /etc/hosts
 # Terminal pri psani hesla neukazuje ani hvezdicky, takze pis naslepo a potvrd Enterem.
 passwd
 
-# Vytvori tveho normalniho uzivatele se jmenem 'salix'.
-# Prepinac '-m' vytvori tvuj domovsky adresar (/home/salix).
+# Vytvori tveho normalniho uzivatele se jmenem 'username'.
+# Prepinac '-m' vytvori tvuj domovsky adresar (/home/username).
 # Prepinac '-G wheel' te prida do dulezite skupiny 'wheel', ktera ma pravo pouzivat prikaz sudo.
 useradd -m -G wheel username
 
