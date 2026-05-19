@@ -155,10 +155,10 @@ passwd
 # Vytvori tveho normalniho uzivatele se jmenem 'salix'.
 # Prepinac '-m' vytvori tvuj domovsky adresar (/home/salix).
 # Prepinac '-G wheel' te prida do dulezite skupiny 'wheel', ktera ma pravo pouzivat prikaz sudo.
-useradd -m -G wheel salix
+useradd -m -G wheel username
 
-# Nastavi prihlasovaci heslo pro tveho noveho uzivatele 'salix'.
-passwd salix
+# Nastavi prihlasovaci heslo pro tveho noveho uzivatele 'username'.
+passwd username
 ```
 
 ## Sudo Privileges (Visudo)
